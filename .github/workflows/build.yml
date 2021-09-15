@@ -34,9 +34,8 @@ jobs:
       
     - name: Setup ECR
       run: |
-        aws --version
         # Login to AWS ECR
-        $( aws ecr get-login --no-include-email )
+        $( aws ecr get-login )
 
     - name: Build and tag the image
       run: |
