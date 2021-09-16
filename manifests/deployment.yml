@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: aws-example-octodex
-        image: 567792663880.dkr.ecr.us-east-2.amazonaws.com/example-eks:f263ceb00ad8377126fdcf99cac2af49aaa36366
+        image: 567792663880.dkr.ecr.us-east-2.amazonaws.com/example-eks:3cba89da9ccfff4e3f2ce7922b4164bda791acde
         ports:
         - containerPort: 5000
         resources:
